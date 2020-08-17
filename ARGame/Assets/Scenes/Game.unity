@@ -408,6 +408,8 @@ GameObject:
   - component: {fileID: 1851542022}
   - component: {fileID: 1851542021}
   - component: {fileID: 1851542020}
+  - component: {fileID: 1851542025}
+  - component: {fileID: 1851542024}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -472,3 +474,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851542024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851542019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e29e4e89fc8d3d4495447ef33a7af28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToInstantiate: {fileID: 8475343508136962660, guid: 27205e971a876794da941a6d20e0d09b,
+    type: 3}
+--- !u!114 &1851542025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851542019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
